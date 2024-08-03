@@ -79,7 +79,7 @@ public class AuthorService {
         else {
             //CREATE
             eBookDetails.setAuthorDetails(authorDetails);
-            System.out.println(eBookDetails);
+            //System.out.println(eBookDetails);
             return eBookDetailsRepo.save(eBookDetails);
 
         }
